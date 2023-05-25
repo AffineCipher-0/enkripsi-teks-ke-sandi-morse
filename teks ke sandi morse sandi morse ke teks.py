@@ -32,7 +32,7 @@ def text_to_morse(text):
     return translated_morse.strip()
 
 # Contoh penggunaan
-morse = '.... . .-.. .-.. --- / .-- --- .-. .-.. -..'  # Sandi Morse
+morse = '.--. . .-. -.-. --- -... .- .- -.'  # Sandi Morse
 translated_text = morse_to_text(morse)
 print("Morse Code: ", morse)
 print("Translated Text: ", translated_text)
