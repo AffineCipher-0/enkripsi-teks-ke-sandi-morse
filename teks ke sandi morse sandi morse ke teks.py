@@ -37,7 +37,7 @@ translated_text = morse_to_text(morse)
 print("Morse Code: ", morse)
 print("Translated Text: ", translated_text)
 
-plaintext = "HALO DUNIA"  # Teks biasa
+plaintext = "Belajar"  # Teks biasa
 translated_morse = text_to_morse(plaintext)
 print("Plaintext: ", plaintext)
 print("Translated Morse Code: ", translated_morse)

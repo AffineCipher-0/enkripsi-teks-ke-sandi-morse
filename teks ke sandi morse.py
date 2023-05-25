@@ -16,7 +16,7 @@ def encrypt_morse(text):
     return encrypted_text
 
 # Contoh penggunaan
-plaintext = "Okay, I'm ready to do this!"
+plaintext = "Belajar"
 encrypted_text = encrypt_morse(plaintext)
 print("Plaintext: ", plaintext)
 print("Encrypted Text (Morse Code): ", encrypted_text)

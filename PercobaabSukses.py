@@ -1,5 +1,4 @@
-# Kamus sandi Morse dalam bahasa Indonesia
-morse_code = {
+# Kamus sandi Morse 
     '.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D', '.': 'E', '..-.': 'F', '--.': 'G', '....': 'H',
     '..': 'I', '.---': 'J', '-.-': 'K', '.-..': 'L', '--': 'M', '-.': 'N', '---': 'O', '.--.': 'P',
     '--.-': 'Q', '.-.': 'R', '...': 'S', '-': 'T', '..-': 'U', '...-': 'V', '.--': 'W', '-..-': 'X',
@@ -7,7 +6,7 @@ morse_code = {
     '-....': '6', '--...': '7', '---..': '8', '----.': '9', '-----': '0', '/': ' '
 }
 
-# Fungsi untuk menerjemahkan sandi Morse ke teks dalam bahasa Indonesia
+# Fungsi untuk menerjemahkan sandi Morse
 def morse_to_text(morse):
     morse_words = morse.split(' / ')
     translated_text = ''
@@ -22,7 +21,7 @@ def morse_to_text(morse):
         translated_text += translated_word + ' '
     return translated_text.strip()
 
-# Fungsi untuk menerjemahkan teks ke sandi Morse dalam bahasa Indonesia
+# Fungsi untuk menerjemahkan teks ke sandi Morse 
 def text_to_morse(text):
     translated_morse = ''
     for char in text:
@@ -39,7 +38,7 @@ translated_text = morse_to_text(morse)
 print("Morse Code: ", morse)
 print("Translated Text: ", translated_text)
 
-plaintext = "HALO DUNIA"  # Teks biasa
+plaintext = "Belajar"  # Teks biasa
 translated_morse = text_to_morse(plaintext)
 print("Plaintext: ", plaintext)
 print("Translated Morse Code: ", translated_morse)
