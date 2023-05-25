@@ -35,3 +35,5 @@ Untuk menerjemahkan sandi Morse ke teks:
 	- Jika karakter ditemukan dalam kamus morse_code, sandi Morse yang sesuai ditambahkan ke dalam string translated_morse.
 	- Jika karakter adalah spasi, tanda "/ " ditambahkan ke dalam string translated_morse sebagai pemisah antara kata.
 	- Setelah selesai menerjemahkan setiap karakter dalam teks, string translated_morse yang berisi sandi Morse hasil terjemahan dikembalikan.
+
+	Algoritma yang digunakan lebih mirip dengan pemetaan satu-ke-satu antara karakter sandi Morse dan karakter teks yang sesuai, berdasarkan kamus morse_code.
