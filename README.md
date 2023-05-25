@@ -1,5 +1,4 @@
 # enkripsi-teks-ke-sandi-morse
-Algoritma subtitusi
 
 python -m PyInstaller --onefile Okversi1.py
 
