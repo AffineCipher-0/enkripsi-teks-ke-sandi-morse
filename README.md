@@ -1,5 +1,6 @@
 # enkripsi-teks-ke-sandi-morse
 
+
 python -m PyInstaller --onefile Okversi1.py
 
 Instal PyInstaller melalui pip dengan menjalankan perintah berikut di terminal atau command prompt:
